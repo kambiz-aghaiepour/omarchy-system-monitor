@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "tanzil.sysmon",
+  "name": "System Monitor",
+  "version": "1.0.0",
+  "author": "tanzil",
+  "description": "Live CPU, memory, and download speed in the bar",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Widget.qml"
+  },
+  "barWidget": {
+    "displayName": "System Monitor",
+    "description": "Real-time CPU %, RAM %, and download speed, shown with icons",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": {
+      "intervalMs": 1000,
+      "netInterface": ""
+    },
+    "schema": [
+      {
+        "key": "intervalMs",
+        "type": "number",
+        "label": "Refresh interval (ms)"
+      },
+      {
+        "key": "netInterface",
+        "type": "string",
+        "label": "Network interface (empty = auto)"
+      }
+    ]
+  }
+}
