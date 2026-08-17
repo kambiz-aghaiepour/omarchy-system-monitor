@@ -38,6 +38,15 @@ Move it around the bar with:
 omarchy bar move tanzil.sysmon --section right
 ```
 
+## Removal
+
+```bash
+omarchy plugin remove tanzil.sysmon --yes
+```
+
+This disables the widget and removes the git checkout. The upstream repository
+is left untouched.
+
 ## Settings
 
 Per-widget settings live inline in `~/.config/omarchy/shell.json`:
