@@ -21,13 +21,13 @@ of a text label.
 ## Install
 
 ```bash
-omarchy plugin add https://github.com/tanzilhasan/omarchy-sysmon.git --enable --yes
+omarchy plugin add https://github.com/throni001/omarchy-system-monitor.git --enable --yes
 ```
 
 Or install by hand:
 
 ```bash
-git clone https://github.com/tanzilhasan/omarchy-sysmon.git ~/.config/omarchy/plugins/tanzil.sysmon
+git clone https://github.com/throni001/omarchy-system-monitor.git ~/.config/omarchy/plugins/tanzil.sysmon
 omarchy-shell shell rescanPlugins
 omarchy plugin enable tanzil.sysmon
 ```
